@@ -1,0 +1,16 @@
+@import '../../variables';
+
+.main-top-item{
+  position: relative;
+  
+  width: 225px;
+  height: 60px;
+  padding:5px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  
+  background-color: $colorE;
+  @include borderRadius(5px);
+  
+
+}

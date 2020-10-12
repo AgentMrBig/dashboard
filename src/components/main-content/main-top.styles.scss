@@ -1,11 +1,12 @@
 @import '../../variables';
 
 .main-top{
-  position: relative;
-  
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-around;
   max-width: 100%;
-  height: 60px;
-  padding:5px;
+  height: 70px;
+  
   margin: 5px;
   
   background-color: $colorC;

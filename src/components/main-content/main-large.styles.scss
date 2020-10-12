@@ -2,8 +2,12 @@
 
 .main-large{
   background-color: $colorC;
+  border: 1px solid red;
   @include borderRadius(5px);
-  width: 40%;
+  width: 300px;
   height: 250px;
   margin: 5px;
+  margin-top: 0px;
+  flex: 1 1 150px;
+  
 }
