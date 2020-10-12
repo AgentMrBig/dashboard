@@ -1,0 +1,76 @@
+// The header component is broken up into 3 main sections
+// the header-left, header-center,header-right
+@import '../../variables';
+
+.header-con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  height: 80px;
+  
+  padding: 0px;
+
+  .header-left {
+    display: flex;
+    min-width: 245px;
+    background-color: $colorD;
+    @include borderRadius(5px);
+    
+    
+    .brand-icon{
+      margin: 5px;
+      // border: 1px solid blue;
+      background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+      width: 60px;
+      height: 60px;
+    }
+    .brand-txt{
+      
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      
+        h1{
+          font-size: 15pt;
+          margin: 0;
+        }
+        p{
+          margin:0;
+        
+        }
+    }
+    
+  }
+  .header-center {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding:5px;
+    @include borderRadius(5px);
+    flex: 1 1 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: $colorD;
+    
+    .header-input{
+      flex: 1 1 50px;
+      height: 25px;
+      border: none;
+      background-color:$colorE;
+    }
+    .header-search{
+      height: 27px;
+      width: 27px;
+      border: none;
+      padding: 0;
+    }
+  }
+  .header-right {
+    @include borderRadius(5px);
+    min-width: 400px;
+    margin-right:5;
+    background-color: $colorD;
+  }
+}

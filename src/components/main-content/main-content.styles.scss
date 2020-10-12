@@ -1,0 +1,13 @@
+@import '../../variables';
+
+.main-con{
+  display:grid;
+  grid-template-rows: auto 1fr auto;
+  width: 200px;
+  flex: 1 1 150px;
+  margin-left: 0px;
+  margin-top: 5px;
+  background-color: $colorD;
+  
+  @include borderRadius(5px);
+}

@@ -1,0 +1,9 @@
+@import '../../variables';
+
+.main-large{
+  background-color: $colorC;
+  @include borderRadius(5px);
+  width: 40%;
+  height: 250px;
+  margin: 5px;
+}

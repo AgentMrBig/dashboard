@@ -1,0 +1,10 @@
+$colorA: #2A24A3;
+$colorB: #2644AD;
+$colorC: #295E96;
+$colorD: #268BAD;
+$colorE:#24A3A2;
+
+@mixin borderRadius($px){
+  border-radius: $px;
+}
+

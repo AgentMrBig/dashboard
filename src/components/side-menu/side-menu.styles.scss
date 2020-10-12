@@ -1,0 +1,10 @@
+@import '../../variables';
+
+.side-menu-con{
+  background-color: $colorD;
+  @include borderRadius(5px);
+  width: 245px;
+  
+  margin-right: 5px;
+  margin-top: 5px;
+}
