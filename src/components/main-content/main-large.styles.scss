@@ -1,6 +1,8 @@
 @import '../../variables';
 
 .main-large{
+  flex-grow: 4;
+  flex-shrink: 2;
   background-color: $colorC;
   border: 1px solid red;
   @include borderRadius(5px);
@@ -8,6 +10,7 @@
   height: 250px;
   margin: 5px;
   margin-top: 0px;
-  flex: 1 1 150px;
+  // flex: 1 1 150px;
+  
   
 }
